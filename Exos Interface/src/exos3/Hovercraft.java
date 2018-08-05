@@ -40,11 +40,11 @@ public class Hovercraft implements IsLandVehicule, IsSeaVessel{
 	}
 	
 	public void enterLand() {
-		System.out.println("is getting out of water.");
+		System.out.println("travel on land.");
 	}
 	
 	public void enterSea() {
-		System.out.println("is getting into the water.");
+		System.out.println("navigate on water.");
 	}
 	
 }
